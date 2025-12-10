@@ -1,0 +1,8 @@
+[
+  {"id":1,"code":"ICS4U","name":"Computer Science","teacherId":1,"semester":"Full Year","room":"305","schedule":"Day 1 AM"},
+  {"id":2,"code":"MHF4U","name":"Advanced Functions","teacherId":2,"semester":"1","room":"210","schedule":"Day 2 PM"},
+  {"id":3,"code":"ENG4U","name":"English","teacherId":3,"semester":"2","room":"118","schedule":"Day 1 PM"},
+  {"id":4,"code":"SPH4U","name":"Physics","teacherId":4,"semester":"Full Year","room":"Lab 2","schedule":"Day 3 AM"},
+  {"id":5,"code":"SBI4U","name":"Biology","teacherId":5,"semester":"1","room":"207","schedule":"Day 2 AM"},
+  {"id":6,"code":"CHI4U","name":"World History","teacherId":6,"semester":"2","room":"101","schedule":"Day 3 PM"}
+]
