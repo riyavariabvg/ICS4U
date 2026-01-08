@@ -1,6 +1,6 @@
 import "dotenv/config";
 import express from "express";
-import mongoose from "mongoose";
+import connectDB from "./config/db.js";  // import database connection
 
 import Student from "./models/Student.js";
 import Teacher from "./models/Teacher.js";
@@ -10,14 +10,10 @@ import Test from "./models/Test.js";
 const app = express();
 app.use(express.json());
 
-// MongoDB connection
-mongoose.connect(process.env.MONGODB_URI)
-  .then(() => console.log("MongoDB connected"))
-  .catch(err => console.error(err));
+// connect to MongoDB
+connectDB();
 
-/* =====================
-   TEACHERS
-===================== */
+// teachers
 
 app.get("/teachers", async (req, res) => {
   const teachers = await Teacher.find();
@@ -59,9 +55,7 @@ app.delete("/teachers/:id", async (req, res) => {
   res.json({ message: "Teacher deleted" });
 });
 
-/* =====================
-   COURSES
-===================== */
+// courses
 
 app.get("/courses", async (req, res) => {
   const courses = await Course.find().populate("teacher");
@@ -103,9 +97,7 @@ app.delete("/courses/:id", async (req, res) => {
   res.json({ message: "Course deleted" });
 });
 
-/* =====================
-   STUDENTS
-===================== */
+// students
 
 app.get("/students", async (req, res) => {
   const students = await Student.find();
@@ -147,9 +139,7 @@ app.delete("/students/:id", async (req, res) => {
   res.json({ message: "Student deleted" });
 });
 
-/* =====================
-   TESTS
-===================== */
+// tests
 
 app.get("/tests", async (req, res) => {
   const tests = await Test.find()
@@ -179,8 +169,8 @@ app.delete("/tests/:id", async (req, res) => {
   res.json({ message: "Test deleted" });
 });
 
-// server
-const PORT = 3000;
+// start server
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
