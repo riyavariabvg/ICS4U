@@ -1,17 +1,130 @@
 [
-  {"id":1,"firstName":"Riya","lastName":"Verma","grade":12,"studentNumber":"S2025001","homeroom":"12A"},
-  {"id":2,"firstName":"Alex","lastName":"Johnson","grade":12,"studentNumber":"S2025002","homeroom":"12B"},
-  {"id":3,"firstName":"Kamea","lastName":"Lewis","grade":11,"studentNumber":"S2025003","homeroom":"11C"},
-  {"id":4,"firstName":"Zara","lastName":"Kwon","grade":11,"studentNumber":"S2025004","homeroom":"11A"},
-  {"id":5,"firstName":"Noah","lastName":"Singh","grade":10,"studentNumber":"S2025005","homeroom":"10B"},
-  {"id":6,"firstName":"Emma","lastName":"Hughes","grade":12,"studentNumber":"S2025006","homeroom":"12C"},
-  {"id":7,"firstName":"Liam","lastName":"Brown","grade":11,"studentNumber":"S2025007","homeroom":"11B"},
-  {"id":8,"firstName":"Maya","lastName":"Rodriguez","grade":10,"studentNumber":"S2025008","homeroom":"10A"},
-  {"id":9,"firstName":"Owen","lastName":"Ng","grade":12,"studentNumber":"S2025009","homeroom":"12B"},
-  {"id":10,"firstName":"Sana","lastName":"Ali","grade":11,"studentNumber":"S2025010","homeroom":"11D"},
-  {"id":11,"firstName":"Ben","lastName":"Park","grade":10,"studentNumber":"S2025011","homeroom":"10C"},
-  {"id":12,"firstName":"Aria","lastName":"Lopez","grade":12,"studentNumber":"S2025012","homeroom":"12A"},
-  {"id":13,"firstName":"Ethan","lastName":"Wong","grade":11,"studentNumber":"S2025013","homeroom":"11C"},
-  {"id":14,"firstName":"Sophia","lastName":"Martins","grade":10,"studentNumber":"S2025014","homeroom":"10B"},
-  {"id":15,"firstName":"Lucas","lastName":"Green","grade":12,"studentNumber":"S2025015","homeroom":"12C"}
+  {
+    "id": 1,
+    "firstName": "Riya",
+    "lastName": "Verma",
+    "grade": 12,
+    "studentNumber": "S2025001",
+    "homeroom": "12A"
+  },
+  {
+    "id": 2,
+    "firstName": "Alex",
+    "lastName": "Johnson",
+    "grade": 12,
+    "studentNumber": "S2025002",
+    "homeroom": "12B"
+  },
+  {
+    "id": 3,
+    "firstName": "Kamea",
+    "lastName": "Lewis",
+    "grade": 11,
+    "studentNumber": "S2025003",
+    "homeroom": "11C"
+  },
+  {
+    "id": 4,
+    "firstName": "Zara",
+    "lastName": "Kwon",
+    "grade": 11,
+    "studentNumber": "S2025004",
+    "homeroom": "11A"
+  },
+  {
+    "id": 5,
+    "firstName": "Noah",
+    "lastName": "Singh",
+    "grade": 10,
+    "studentNumber": "S2025005",
+    "homeroom": "10B"
+  },
+  {
+    "id": 6,
+    "firstName": "Emma",
+    "lastName": "Hughes",
+    "grade": 12,
+    "studentNumber": "S2025006",
+    "homeroom": "12C"
+  },
+  {
+    "id": 7,
+    "firstName": "Liam",
+    "lastName": "Brown",
+    "grade": 11,
+    "studentNumber": "S2025007",
+    "homeroom": "11B"
+  },
+  {
+    "id": 8,
+    "firstName": "Maya",
+    "lastName": "Rodriguez",
+    "grade": 10,
+    "studentNumber": "S2025008",
+    "homeroom": "10A"
+  },
+  {
+    "id": 9,
+    "firstName": "Owen",
+    "lastName": "Ng",
+    "grade": 12,
+    "studentNumber": "S2025009",
+    "homeroom": "12B"
+  },
+  {
+    "id": 10,
+    "firstName": "Sana",
+    "lastName": "Ali",
+    "grade": 11,
+    "studentNumber": "S2025010",
+    "homeroom": "11D"
+  },
+  {
+    "id": 11,
+    "firstName": "Ben",
+    "lastName": "Park",
+    "grade": 10,
+    "studentNumber": "S2025011",
+    "homeroom": "10C"
+  },
+  {
+    "id": 12,
+    "firstName": "Aria",
+    "lastName": "Lopez",
+    "grade": 12,
+    "studentNumber": "S2025012",
+    "homeroom": "12A"
+  },
+  {
+    "id": 13,
+    "firstName": "Ethan",
+    "lastName": "Wong",
+    "grade": 11,
+    "studentNumber": "S2025013",
+    "homeroom": "11C"
+  },
+  {
+    "id": 14,
+    "firstName": "Sophia",
+    "lastName": "Martins",
+    "grade": 10,
+    "studentNumber": "S2025014",
+    "homeroom": "10B"
+  },
+  {
+    "id": 15,
+    "firstName": "Bob",
+    "lastName": "Williams",
+    "grade": 12,
+    "studentNumber": "S67890",
+    "homeroom": "12B"
+  },
+  {
+    "id": 16,
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "grade": 11,
+    "studentNumber": "S12345",
+    "homeroom": "11A"
+  }
 ]
